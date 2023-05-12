@@ -1,0 +1,52 @@
+.login-content{
+    margin-top: 10rem;
+    text-align: center;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    background-color: #11122b;
+    width: 315px;
+    margin-bottom: 2rem;
+    height: 350px;
+    text-align: center;
+    padding-top: 2rem;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #cea135;
+
+}
+
+form input{
+    width: 250px;
+    height: 40px;
+}
+
+form label{
+    margin-right: 12rem;
+    color: wheat;
+}
+
+#create-account{
+    color: white;
+    margin-top: 0.5rem;
+}
+#create-account a{
+    text-decoration: none;
+}
+
+button{
+    width: 250px;
+    height: 40px;
+}
+
+#login{
+    background-color: #11122b;
+    color: white;
+    cursor: pointer;
+}

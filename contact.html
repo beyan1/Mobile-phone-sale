@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="media_queries.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="logo3.png" alt="logo">
+        </div>
+        <ul class="nav">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="multimedia.html">MULTIMEDIA</a></li>
+            <li><a href="product.html">PRODUCT</a></li>
+            <li>
+                <a href="#">PAGES</a>
+                <ul class="dropdown">
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="payment.html">Payment</a></li>
+                    <li><a href="register.html">Sign Up</a></li>
+                    <li><a href="login.html">Logout</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+    <div class="contact-content">
+    </div>
+
+    <div class="form">
+        <form action="connect.php" method="post">
+            <h2 style="color: white; ">CONTACT FORM</h2>
+            <label for="fname">FirstName</label> <br>
+            <input type="text" name="firstname" placeholder="Enter Your FirstName" required> <br> <br>
+            <label for="lname">LasttName</label> <br>
+            <input type="text" name="lastname" placeholder="Enter Your LastName" required> <br><br>
+            <label for="email">Email</label> <br>
+            <input type="text" name="email" placeholder="Enter Your Email" required> <br> <br>
+            <select name="country" required>
+                <option value="#">Country</option>
+                <option value="Liberia">Liberia</option>
+                <option value="Rwanda">Rwanda</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Guinea">Guinea/<option>
+            </select>
+            <br><br>
+            <label for="message">Message</label> <br>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Write Your Inquiry"></textarea> <br> <br>
+            <button type="Submit" id="btn">Submit</button>
+        </form>
+    </div>
+
+     
+    <footer class="footer-wrapper">
+        <div class="footer-column">
+            <h4>VISIT OUR SHOWROOM</h4>
+            <a href="gallery.html"> <img src="showroom.jpg" alt="Img" height="230" width="350"></a>
+            <p>
+                KK216 Street,Niboye Sector <br>
+                Kigali-RWANDA, P0 B0X: 10078<br>
+                <a href="index.html">info@ATECHmobileshop.com</a>
+            </p>
+        </div>
+
+        <div class="footer-column">
+            <h4>Contact Us</h4>
+            Phone: +250791903829<br>
+            Whatsapp: +250791903829<br>
+            Email: andrewbeyan22@gmail.com
+        </div>
+
+        <div class="footer-column">
+            <h4>Follow us on Social Media</h4>
+            <a href="https://www.facebook.com/" target="_blank"><img src="fB.png" alt="" /></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="linkedin.png" alt="" /></a>
+            <a href="https://twitter.com/" target="_blank"><img src="twitter.png" alt="" /></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="instagram.png"  alt=""></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><img src="whatsapp.png" alt=""></a>
+            <a href="https://web.telegram.org/z/" target="_blank"><img src="telegram.png" alt=""></a>
+        </div>
+    </footer>
+    <div class="footnote">
+        <div class="copyright">
+            &copy; All Rights Reserved! by Atech <br> Monrovia _ Liberia2023!
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

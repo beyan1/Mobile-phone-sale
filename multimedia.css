@@ -1,0 +1,80 @@
+.multimedia-content{
+    background-image: url(cell.jpg);
+    margin-top: 10rem;
+    height: 50vh;
+    
+}
+
+.multimedia-content h1{
+    color: white;
+    text-align: center;
+}
+.multimedia-first-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.multimedia-second-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.multimedia-card img{
+    height: 45vh;
+    width: 380px;
+}
+
+#testimony{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.testimony{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.testimony-card{
+    width: 500px;
+    height: 70vh;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 1rem;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+}
+.testimony-card img{
+    height: 50vh;
+    width: 380px;
+    text-align: center;
+    border-radius: 100%;
+    margin-top: 1rem;
+}
+
+#clip{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.video-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2rem;
+}
+
+.video{
+    margin: 1rem;
+}
+
+.audio{
+    margin: 1rem;
+}

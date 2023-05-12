@@ -1,0 +1,42 @@
+.register-content{
+    margin-top: 10rem;
+    text-align: center;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    background-color: #11122b;
+    width: 315px;
+    margin-bottom: 2rem;
+    height: 300px;
+    text-align: center;
+    padding-top: 2rem;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #cea135;
+
+}
+
+form input{
+    width: 250px;
+    height: 40px;
+}
+
+form label{
+    margin-right: 12rem;
+    color: wheat;
+}
+
+#sign_up{
+    width: 250px;
+    height: 40px;
+    background-color: #11122b;
+    color: white;
+}
+
+

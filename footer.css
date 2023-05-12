@@ -1,0 +1,40 @@
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #11122b;
+    padding: 2rem;
+    color: white;
+}
+
+.footer-wrapper h4{
+    text-decoration: underline;
+}
+.footer-column{
+    width: 300px;
+    margin-right: 3rem;
+    height: 40vh;
+}
+
+
+.footer-column:nth-child(3) img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.footer-column:nth-child(3){
+    width: 400px;
+}
+.footer-column:nth-child(2),.footer-column:nth-child(3){
+    padding-top: 3rem;
+}
+.footnote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: white;
+}
+
+
